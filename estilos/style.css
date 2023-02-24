@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body, hmtl, main {
+body,
+hmtl,
+main {
     width: 100vw;
     height: 100vh;
 }
@@ -16,7 +18,7 @@ main {
     background-image: linear-gradient(to bottom, lightgray, gray);
 }
 
-main > h1 {
+main>h1 {
     font-size: 3em;
     padding-top: 100px;
     padding-bottom: 70px;
@@ -24,11 +26,11 @@ main > h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
 }
 
-main > p > span {
+main>p>span {
     font-size: 2em;
 }
 
-main > button {
+main>button {
     background-color: lightgray;
     border: 0;
     outline: 0;
@@ -46,4 +48,3 @@ button:hover {
     background-color: gray;
     color: white;
 }
-
